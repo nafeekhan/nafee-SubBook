@@ -1,0 +1,129 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:2:1-33:12
+MERGED from [com.android.support:design:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/4b13cc32d902772343b9c05ce62dffce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d50083d159df8c38784a10d589e127f8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/cfe7411c1613e126cb5e751c8cb83fb2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/cef01504680dbe98f08844192c79fd26/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/32c094cf801a2e7d54eeec8902b04d6d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/dfe4dac7c50d3d77c5fdb8ae2ad3550e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f31a733eede09264a53eae3094ebcc7e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/0253f5c719a675628107e52375bc34c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/4d2613b8fa12f7fdc3e3b172ce13a2ae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/fb518a2fa6a6fe48fbe23ab50c88d265/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/83093425ff577055f5d20cde905175fc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/ffe71cb3504dd4bd9395855b0990d2c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/bd328a9c74157adf3cc9e3f68cf832e3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/2d650b120764bf95af545c785c820812/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:5:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/cfe7411c1613e126cb5e751c8cb83fb2/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/cfe7411c1613e126cb5e751c8cb83fb2/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.nafeekhan.firstapp.MainActivity
+ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.example.nafeekhan.firstapp.AddEditActivity
+ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:22:9-30:20
+	android:parentActivityName
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:25:13-85
+	android:label
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:24:13-60
+	android:theme
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:23:13-44
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:27:13-29:79
+	android:value
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml:28:17-63
+uses-sdk
+INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/4b13cc32d902772343b9c05ce62dffce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/4b13cc32d902772343b9c05ce62dffce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d50083d159df8c38784a10d589e127f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d50083d159df8c38784a10d589e127f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/cfe7411c1613e126cb5e751c8cb83fb2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/cfe7411c1613e126cb5e751c8cb83fb2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/cef01504680dbe98f08844192c79fd26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/cef01504680dbe98f08844192c79fd26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/32c094cf801a2e7d54eeec8902b04d6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/32c094cf801a2e7d54eeec8902b04d6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/dfe4dac7c50d3d77c5fdb8ae2ad3550e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/dfe4dac7c50d3d77c5fdb8ae2ad3550e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f31a733eede09264a53eae3094ebcc7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f31a733eede09264a53eae3094ebcc7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/0253f5c719a675628107e52375bc34c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/0253f5c719a675628107e52375bc34c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/4d2613b8fa12f7fdc3e3b172ce13a2ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/4d2613b8fa12f7fdc3e3b172ce13a2ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/fb518a2fa6a6fe48fbe23ab50c88d265/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/fb518a2fa6a6fe48fbe23ab50c88d265/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/83093425ff577055f5d20cde905175fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/83093425ff577055f5d20cde905175fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/ffe71cb3504dd4bd9395855b0990d2c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/ffe71cb3504dd4bd9395855b0990d2c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/bd328a9c74157adf3cc9e3f68cf832e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/bd328a9c74157adf3cc9e3f68cf832e3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/2d650b120764bf95af545c785c820812/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/nafeekhan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/2d650b120764bf95af545c785c820812/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nafeekhan/AndroidStudioProjects/FirstApplication/app/src/main/AndroidManifest.xml
