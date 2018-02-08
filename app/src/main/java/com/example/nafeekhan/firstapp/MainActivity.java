@@ -1,33 +1,39 @@
 package com.example.nafeekhan.firstapp;
 
-import android.app.Activity;
-import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
-
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.ArrayAdapter;
-import android.widget.AdapterView;
-import android.content.Intent;
 import android.widget.TextView;
 
+
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 
+
+import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-//import com.example.nafeekhan.subscriptionmanager.MyApp;
-import java.io.File;
-//import org.apache.commons.io.IOUtils;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+
+//.8.2.jar.com.google.gson;
+//import com.example.nafeekhan.subscriptionmanager.MyApp;
+//import org.apache.commons.io.IOUtils;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -166,11 +172,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void readJsonFromFile() throws FileNotFoundException {
+
+
         Type type = new TypeToken<ArrayList<Subscription>>() {
         }.getType();
         Gson gson = new Gson();
-        JsonReader reader = new JsonReader(new FileReader(APP_DATA_FILE));
-        ArrayList<Subscription> sub = gson.fromJson(reader, type);
+        //JsonReader reader = new JsonReader(APP_DATA_FILE);
+        InputStream is = new FileInputStream(APP_DATA_FILE);
+
+        ArrayList<Subscription> sub = gson.fromJson(String.valueOf(is), type);
         subscriptions.addAll(sub);
     }
 
@@ -205,8 +215,12 @@ public class MainActivity extends AppCompatActivity {
                 e.printStackTrace();
             }*/
             try {
-                JsonWriter writer = new JsonWriter(new FileWriter(file,false));
+
+                //OutputStream os = new FileOutputStream(APP_DATA_FILE)
+
+                JsonWriter writer = new JsonWriter(new FileWriter(APP_DATA_FILE));
                 gson.toJson(subscriptions, type, writer);
+
                 writer.close();
             } catch (IOException e) {
                 e.printStackTrace();
@@ -504,7 +518,6 @@ public class MainActivity extends AppCompatActivity {
             for (int n = 0; n < roster.size(); n++) {
                 Subscription s = roster.get(n);
                 total = total + s.getMonthly();
-
             }
         }
         String text = String.format("Total Monthly = %.2f", total);
