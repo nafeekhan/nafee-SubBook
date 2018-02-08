@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstApplication</string>
+    <string name="Add">Add</string>
+    <string name="title_activity_add_edit">AddEditActivity</string>
+</resources>
