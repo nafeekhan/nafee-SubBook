@@ -197,6 +197,8 @@ public class AddEditActivity extends AppCompatActivity {
         btnDelete.setClickable(false);
         btnEdit.setVisibility(View.INVISIBLE);
         btnEdit.setClickable(false);
+
+
         final DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
             @Override
             public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
@@ -424,6 +426,5 @@ public class AddEditActivity extends AppCompatActivity {
         Intent result = new Intent();
         setResult(Activity.RESULT_CANCELED, result);
         finish();
-
     }
 }

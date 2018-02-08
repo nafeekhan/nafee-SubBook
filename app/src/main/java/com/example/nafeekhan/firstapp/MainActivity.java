@@ -403,7 +403,7 @@ public class MainActivity extends AppCompatActivity {
 
 
             if (resultCode == RESULT_CANCELED) {
-                adapter.refreshRoster(subscriptions);
+                //adapter.refreshRoster(subscriptions);
         /*
                 setContentView(R.layout.activity_main_alt);
                 altText = findViewById(R.id.tv_row);
