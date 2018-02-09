@@ -1,7 +1,9 @@
 package com.example.nafeekhan.firstapp;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
@@ -106,14 +108,6 @@ public class MainActivity extends AppCompatActivity {
             //tvCalc.setText(text);
             //CalcTotalMongthly(subscriptions);
 
-            appFile = new File(getFilesDir(), APP_DATA_FILE);
-            if (!appFile.exists()){
-                try {
-                    appFile.createNewFile();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
             /*if (appFile.exists()) {
                 try {
                     readJsonFromFile();
@@ -121,11 +115,11 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
             }*/
-            try {
+
+
                 readJsonFromFile();
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            }
+
+
             adapter = new SubbookAdapter(MainActivity.this, R.layout.subscription_item, subscriptions);
             lvSubBook.setAdapter(adapter);
             CalcTotalMongthly(subscriptions);
@@ -171,9 +165,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void readJsonFromFile() throws FileNotFoundException {
+    public void readJsonFromFile() {
 
-
+/*
         Type type = new TypeToken<ArrayList<Subscription>>() {
         }.getType();
         Gson gson = new Gson();
@@ -182,7 +176,22 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<Subscription> sub = gson.fromJson(String.valueOf(is), type);
         subscriptions.addAll(sub);
+        */
+
+        Type type = new TypeToken<ArrayList<Subscription>>() {}.getType();
+        SharedPreferences appSharedPrefs = PreferenceManager.getDefaultSharedPreferences(this.getApplicationContext());
+        Gson gson = new Gson();
+
+        String json = appSharedPrefs.getString("MyObject", "");
+        //Object obj = new Object();
+        if(json.length() != 0 ) {
+
+
+            ArrayList<Object> list = new ArrayList<Object>();
+            subscriptions = gson.fromJson(json, type);
+        }
     }
+
 
     /*
     public String readFile(String fileName) throws IOException {
@@ -204,16 +213,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        Type type = new TypeToken<ArrayList<Subscription>>() {
-        }.getType();
-        Gson gson = new Gson();
-        File file = new File(getFilesDir(), APP_DATA_FILE);
+        //Type type = new TypeToken<ArrayList<Subscription>>() {
+        //}.getType();
+        //Gson gson = new Gson();
+        /*File file = new File(getFilesDir(), APP_DATA_FILE);
         if (subscriptions.size()!=0) {
             /*try {
                 file.createNewFile();
             } catch (IOException e) {
                 e.printStackTrace();
-            }*/
+            }*//*
             try {
 
                 //OutputStream os = new FileOutputStream(APP_DATA_FILE)
@@ -236,28 +245,34 @@ public class MainActivity extends AppCompatActivity {
         }*/
         //super.onPause();
 
+        SharedPreferences appSharedPrefs = PreferenceManager.getDefaultSharedPreferences(this.getApplicationContext());
+        SharedPreferences.Editor prefsEditor = appSharedPrefs.edit();
+        Gson gson = new Gson();
+        String json = gson.toJson(subscriptions);
+        prefsEditor.putString("MyObject", json);
+        prefsEditor.commit();
 
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Type type = new TypeToken<ArrayList<Subscription>>() {
-        }.getType();
-        Gson gson = new Gson();
-        File file = new File(getFilesDir(), APP_DATA_FILE);
-        if (subscriptions.size()!=0) {
+        //Type type = new TypeToken<ArrayList<Subscription>>() {
+        //}.getType();
+        //Gson gson = new Gson();
+        //File file = new File(getFilesDir(), APP_DATA_FILE);
+        //if (subscriptions.size()!=0) {
             /*
             try {
                 file.createNewFile();
             } catch (IOException e) {
                 e.printStackTrace();
             }*/
-            try {
-                JsonWriter writer = new JsonWriter(new FileWriter(file,false));
+            //try {
+                /*JsonWriter writer = new JsonWriter(new FileWriter(file,false));
                 gson.toJson(subscriptions, type, writer);
                 writer.close();
-            } catch (IOException e) {
+            //} catch (IOException e) {
                 e.printStackTrace();
             }
         }/*else if (file.exists()){
@@ -270,6 +285,12 @@ public class MainActivity extends AppCompatActivity {
             }
         }*/
         //super.onPause();
+        SharedPreferences appSharedPrefs = PreferenceManager.getDefaultSharedPreferences(this.getApplicationContext());
+        SharedPreferences.Editor prefsEditor = appSharedPrefs.edit();
+        Gson gson = new Gson();
+        String json = gson.toJson(subscriptions);
+        prefsEditor.putString("MyObject", json);
+        prefsEditor.commit();
 
     }
 
