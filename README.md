@@ -22,7 +22,7 @@
 
 #From what I tested - my app calculates Totalmonthly,
                     - it has a functional Add, Edit and Delete. feature.
-***Note: I was unable to get functional I/O methods working.
+
 
 
                                               
